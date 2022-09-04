@@ -45,7 +45,7 @@ export const config = {
       useTemplateId: "NyhYrNXfw7xGEP_Nr00dMayRMpNkZp8Ld3J18wRPvbg",
       province: "贵州",
       city: "贵阳",
-      openUrl: "https://baidu.com"
+      openUrl: "https://zhangshanshan.netlify.app/"
     }, 
   ],
 
@@ -105,7 +105,7 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2015-05-01"},
+   // {"keyword": "love_day", date: "2015-05-01"},
     // 结婚纪念日
    //{"keyword": "marry_day", date: "2020-01-04"},
     // 退伍日, 不用可以删掉
