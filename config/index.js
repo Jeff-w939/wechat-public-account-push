@@ -31,7 +31,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oAouR6ieFy6FFR_lOS0vEXZDP_24",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "8a4ZtU03esqba0Q_1FwTeBKDksPHdGZT_V6kKwv1AiQ",
+      useTemplateId: "HryU45ZQvU3DunBY-VqNLO5UbRNV-aRW4DnhuO62dOI",
       // 所在省份
       province: "贵州",
       // 所在城市
@@ -42,7 +42,7 @@ export const config = {
     {
       name: "珊珊", 
       id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
-      useTemplateId: "8a4ZtU03esqba0Q_1FwTeBKDksPHdGZT_V6kKwv1AiQ",
+      useTemplateId: "HryU45ZQvU3DunBY-VqNLO5UbRNV-aRW4DnhuO62dOI",
       province: "贵州",
       city: "贵阳",
       openUrl: "https://zhangshanshan.netlify.app/"
