@@ -31,7 +31,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oAouR6ieFy6FFR_lOS0vEXZDP_24",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "NyhYrNXfw7xGEP_Nr00dMayRMpNkZp8Ld3J18wRPvbg",
+      useTemplateId: "GdhADSIch78UjzAqVyxTgIMnjSpLNyjsaIoi4X7FXYs",
       // 所在省份
       province: "贵州",
       // 所在城市
@@ -42,7 +42,7 @@ export const config = {
     {
       name: "珊珊", 
       id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
-      useTemplateId: "NyhYrNXfw7xGEP_Nr00dMayRMpNkZp8Ld3J18wRPvbg",
+      useTemplateId: "GdhADSIch78UjzAqVyxTgIMnjSpLNyjsaIoi4X7FXYs",
       province: "贵州",
       city: "贵阳",
       openUrl: "https://zhangshanshan.netlify.app/"
@@ -105,7 +105,7 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-   // {"keyword": "love_day", date: "2015-05-01"},
+   {"keyword": "love_day", date: "2022-07-31"},
     // 结婚纪念日
    //{"keyword": "marry_day", date: "2020-01-04"},
     // 退伍日, 不用可以删掉
