@@ -4,10 +4,10 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "",
+  APP_ID: "wxbbc5f30e44b997a7",
 
   // 公众号APP_SECRET
-  APP_SECRET: "",
+  APP_SECRET: "f95720aa4fee67aebe17ec7c4c7c9d5b",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -27,41 +27,25 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "王果",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohxO123O6Vsk2Yv0Kuf-ywIZ3VRMpuXhk",
+      id: "oAouR6ieFy6FFR_lOS0vEXZDP_24",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "Wue80GrtY1nAia4tam-FDxZF9WNx9pwcBc0LMpANnu8",
+      useTemplateId: "NyhYrNXfw7xGEP_Nr00dMayRMpNkZp8Ld3J18wRPvbg",
       // 所在省份
-      province: "广东",
+      province: "北京",
       // 所在城市
-      city: "肇庆",
+      city: "海淀",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "老婆1", 
+      name: "珊珊", 
       id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
-      useTemplateId: "Wue80GrtY1nAia4tam-FDxZF9WNx9pwcBc0LMpANnu8",
-      province: "广东",
-      city: "河源",
+      useTemplateId: "NyhYrNXfw7xGEP_Nr00dMayRMpNkZp8Ld3J18wRPvbg",
+      province: "贵州",
+      city: "贵阳",
       openUrl: "https://baidu.com"
-    }, 
-    {
-      name: "老婆2",
-      id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
-      useTemplateId: "Wue80GrtY1nAia4tam-FDxZF9WNx9pwcBc0LMpANnu8",
-      province: "广东",
-      city: "广州",
-      openUrl: "https://weibo.com"
-    }, 
-    {
-      name: "老婆3", 
-      id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk", 
-      useTemplateId: "Wue80GrtY1nAia4tam-FDxZF9WNx9pwcBc0LMpANnu8",
-      province: "",
-      city: "",
-      openUrl: "https://wangxinleo.cn"
     }, 
   ],
 
@@ -78,7 +62,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohxOO36VskY3v0Kuf-ywIZVR3MpuXhk",
+      id: "oAouR6ieFy6FFR_lOS0vEXZDP_24",
     }, 
   ],
     
@@ -89,9 +73,9 @@ export const config = {
   /** 天气相关 */
 
   // 所在省份
-  PROVINCE: "广东",
+  PROVINCE: "贵州",
   // 所在城市
-  CITY: "惠州",
+  CITY: "贵阳",
 
   /** 重要节日相关 */
 
@@ -102,10 +86,8 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "生日", "name": "珊珊", "year": "1998", "date": "07-11"},
+    {"type": "节日", "name": "相识日", "year": "2022", "date": "07-31"},
   ],
 
   /**
@@ -113,7 +95,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 0,
 
   /** 日期相关 */
 
@@ -125,9 +107,9 @@ export const config = {
     // 在一起的日子
     {"keyword": "love_day", date: "2015-05-01"},
     // 结婚纪念日
-    {"keyword": "marry_day", date: "2020-01-04"},
+   //{"keyword": "marry_day", date: "2020-01-04"},
     // 退伍日, 不用可以删掉
-    {"keyword": "ex_day", date: "2022-08-31"},
+    //{"keyword": "ex_day", date: "2022-08-31"},
     // sakana日
     // {"keyword": "sakana_day", date: "2022-01-06"},
     // ... 
@@ -141,13 +123,22 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    //{"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
+      "别担心，你迟早也会成为别人的宝藏",
+      "你是天上最美丽的仙女，是七彩的云，飘飘悠悠来到人间，你走过的地方飘着发光的星星，一道阳光随着你照耀向我，使我褪去漫长冬天里的苍白",
+      "月亮是我抛的硬币两面都是梦见你",
+      "我们终将原谅这个世界，原谅我们自己。因为，我们一直如此善意对待的生活，终将以善意回馈你我",
       "因为太喜欢你，所以看谁都像是情敌。",
       "申请成为你爱里的永久居民。",
       "你很傻，你很笨，可我还是很羡慕你，因为你有我",
       "遇见你，就好像捡到了100斤的运气",
+      "遇见你的那天，樱花开满南山",
+      "想和你一齐在晚风里，说些可爱的废话数星星，直到月亮也悄悄凑过来听",
+      "月亮不会奔向你，但我会，不远万里的那种",
+      "你眼中有星河，胜过我见过的一切浩渺烟波",
+      "不到严冬，就很少想到太阳多么无私伟大；不到孤独寂寞时，就不明白人与人互相关爱是多么重要。人，离不开太阳的光辉，但人更需要彼此感情上的相互温暖",
     ]},
   ],
 
