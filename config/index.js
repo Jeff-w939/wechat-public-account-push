@@ -41,7 +41,7 @@ export const config = {
     }, 
     {
       name: "珊珊", 
-      id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
+      id: "oAouR6vnwi6J8Q_ofS8Sqae6dBWI",
       useTemplateId: "HrAAYFpL4sIP2H-2hL-KgIkpA_mi3t3hgVLBZWU51NI",
       province: "贵州",
       city: "贵阳",
