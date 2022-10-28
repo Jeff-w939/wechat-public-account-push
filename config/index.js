@@ -39,14 +39,14 @@ export const config = {
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://zhangshanshan.netlify.app/"
     }, 
-//     {
-//       name: "珊珊", 
-//       id: "oAouR6vnwi6J8Q_ofS8Sqae6dBWI",
-//       useTemplateId: "l1pLR5eQjnfUmJ3n-tq-yFgxPlaBWI_-03fECoADgZA",
-//       province: "贵州",
-//       city: "贵阳",
-//       openUrl: "https://zhangshanshan.netlify.app/"
-//     }, 
+    {
+      name: "珊珊", 
+      id: "oAouR6vnwi6J8Q_ofS8Sqae6dBWI",
+      useTemplateId: "i-01Vi4Ml00-kI07GRgAS1v0R9g4p9VsMGGU6ERrOSU",
+      province: "贵州",
+      city: "贵阳",
+      openUrl: "https://zhangshanshan.netlify.app/"
+    }, 
   ],
 
   /**
