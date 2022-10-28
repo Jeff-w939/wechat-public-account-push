@@ -31,7 +31,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oAouR6ieFy6FFR_lOS0vEXZDP_24",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "v4c9itrUFLZD_WNCZtbjjgMuAkYoO9QPNNKRuv-5I6s",
+      useTemplateId: "l1pLR5eQjnfUmJ3n-tq-yFgxPlaBWI_-03fECoADgZA",
       // 所在省份
       province: "贵州",
       // 所在城市
@@ -39,14 +39,14 @@ export const config = {
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://zhangshanshan.netlify.app/"
     }, 
-    {
-      name: "珊珊", 
-      id: "oAouR6vnwi6J8Q_ofS8Sqae6dBWI",
-      useTemplateId: "v4c9itrUFLZD_WNCZtbjjgMuAkYoO9QPNNKRuv-5I6s",
-      province: "贵州",
-      city: "贵阳",
-      openUrl: "https://zhangshanshan.netlify.app/"
-    }, 
+//     {
+//       name: "珊珊", 
+//       id: "oAouR6vnwi6J8Q_ofS8Sqae6dBWI",
+//       useTemplateId: "l1pLR5eQjnfUmJ3n-tq-yFgxPlaBWI_-03fECoADgZA",
+//       province: "贵州",
+//       city: "贵阳",
+//       openUrl: "https://zhangshanshan.netlify.app/"
+//     }, 
   ],
 
   /**
@@ -86,8 +86,8 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "珊珊", "year": "1998", "date": "07-11"},
-    {"type": "节日", "name": "恋爱日", "year": "2022", "date": "10-26"},
+    {"type": "生日", "name": "傻蛋儿师傅", "year": "1998", "date": "07-11"},
+    {"type": "节日", "name": "相识日", "year": "2022", "date": "7-30"},
   ],
 
   /**
